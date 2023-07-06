@@ -5,6 +5,7 @@ steps:
       - '-c'
       - |
         touch .env
+        echo "SECRET_KEY=$_SECRET_KEY" > .env
         echo "API_KEY=$_API_KEY" > .env
         gcloud app deploy
 timeout: '1600s'

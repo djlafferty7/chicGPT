@@ -3,22 +3,24 @@
 {% block body %}
 
 <div class="form-container">
-    <form method="POST" action="/" enctype="multipart/form-data">
-        <label class="form-label" for="user_input">What should I wear...</label>
-        <input class="form-input" type="text" name="user_input" id="user_input" placeholder="Enter your prompt here"
-               required>
-        <br>
-        <label class="form-label" for="item">Focal item:</label>
-        <input class="form-input" type="text" name="item" id="item" placeholder="Enter an optional focal item">
-        <br>
-        <label class="form-label" for="json_file">Wardrobe data:</label>
-        <input class="form-input" type="file" name="json_file" id="json_file" accept=".json">
-        <br>
-        <input class="form-submit" type="submit" value="Get Advice">
-    </form>
-    <div class="center-container">
-        <a href="{{ url_for('static', filename='example_wardrobe.json') }}" download class="download-link">Download
-            example wardrobe json</a>
+    <div class="form-container">
+        <form method="POST" action="/" enctype="multipart/form-data">
+            {{ form.csrf_token }}
+            <label class="form-label">What should I wear...</label>
+            {{ form.user_input(class="form-input") }}
+            <br>
+            <label class="form-label">Focal item:</label>
+            {{ form.item(class="form-input") }}
+            <br>
+            <label class="form-label">Wardrobe data:</label>
+            {{ form.json_file(class="form-input") }}
+            <br>
+            <input class="form-submit" type="submit" value="Get Advice">
+        </form>
+        <div class="center-container">
+            <a href="{{ url_for('static', filename='example_wardrobe.json') }}" download class="download-link">Download
+                example wardrobe json</a>
+        </div>
     </div>
 </div>
 
