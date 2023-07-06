@@ -1,4 +1,7 @@
+cloudbuild.yaml
+
 config.py
+test.py
 
 __pycache__/
 /venv

@@ -4,6 +4,7 @@ from scripts.chicgpt import get_advice
 
 app = Flask(__name__)
 
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
