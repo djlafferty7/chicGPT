@@ -1,0 +1,400 @@
+{
+  "items": [
+    {
+      "name": "Blue T-Shirt",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "T-Shirt"
+    },
+    {
+      "name": "Red Hoodie",
+      "primary_color": "Red",
+      "secondary_color": null,
+      "type": "Hoodie"
+    },
+    {
+      "name": "Black Jeans",
+      "primary_color": "Black",
+      "secondary_color": null,
+      "type": "Jeans"
+    },
+    {
+      "name": "White Sneakers",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Sneakers"
+    },
+    {
+      "name": "Yellow Dress",
+      "primary_color": "Yellow",
+      "secondary_color": null,
+      "type": "Dress"
+    },
+    {
+      "name": "Green Polo Shirt",
+      "primary_color": "Green",
+      "secondary_color": null,
+      "type": "Shirt"
+    },
+    {
+      "name": "Gray Sweatpants",
+      "primary_color": "Gray",
+      "secondary_color": null,
+      "type": "Pants"
+    },
+    {
+      "name": "Pink Blouse",
+      "primary_color": "Pink",
+      "secondary_color": null,
+      "type": "Blouse"
+    },
+    {
+      "name": "Brown Leather Jacket",
+      "primary_color": "Brown",
+      "secondary_color": null,
+      "type": "Jacket"
+    },
+    {
+      "name": "Purple Skirt",
+      "primary_color": "Purple",
+      "secondary_color": null,
+      "type": "Skirt"
+    },
+    {
+      "name": "White Tank Top",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Tank Top"
+    },
+    {
+      "name": "Blue Shorts",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "Shorts"
+    },
+    {
+      "name": "Orange Sweater",
+      "primary_color": "Orange",
+      "secondary_color": null,
+      "type": "Sweater"
+    },
+    {
+      "name": "Black Boots",
+      "primary_color": "Black",
+      "secondary_color": null,
+      "type": "Boots"
+    },
+    {
+      "name": "Striped Shirt",
+      "primary_color": "White",
+      "secondary_color": "Blue",
+      "type": "Shirt"
+    },
+    {
+      "name": "Gray Cap",
+      "primary_color": "Gray",
+      "secondary_color": null,
+      "type": "Cap"
+    },
+    {
+      "name": "Red Plaid Shirt",
+      "primary_color": "Red",
+      "secondary_color": "Black",
+      "type": "Shirt"
+    },
+    {
+      "name": "Denim Skirt",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "Skirt"
+    },
+    {
+      "name": "White Oxford Shirt",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Shirt"
+    },
+    {
+      "name": "Gray Joggers",
+      "primary_color": "Gray",
+      "secondary_color": null,
+      "type": "Pants"
+    },
+    {
+      "name": "Pink Cardigan",
+      "primary_color": "Pink",
+      "secondary_color": null,
+      "type": "Cardigan"
+    },
+    {
+      "name": "Black Leather Pants",
+      "primary_color": "Black",
+      "secondary_color": null,
+      "type": "Pants"
+    },
+    {
+      "name": "Blue Checkered Shirt",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "Shirt"
+    },
+    {
+      "name": "Yellow Raincoat",
+      "primary_color": "Yellow",
+      "secondary_color": null,
+      "type": "Coat"
+    },
+    {
+      "name": "Green Cargo Pants",
+      "primary_color": "Green",
+      "secondary_color": null,
+      "type": "Pants"
+    },
+    {
+      "name": "White Lace Dress",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Dress"
+    },
+     {
+      "name": "Blue T-Shirt",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "T-Shirt"
+    },
+    {
+      "name": "Black Jeans",
+      "primary_color": "Black",
+      "secondary_color": null,
+      "type": "Jeans"
+    },
+    {
+      "name": "Red Plaid Shirt",
+      "primary_color": "Red",
+      "secondary_color": "Black",
+      "type": "Button Down Shirt"
+    },
+    {
+      "name": "White Sneakers",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Sneakers"
+    },
+    {
+      "name": "Grey Hoodie",
+      "primary_color": "Grey",
+      "secondary_color": null,
+      "type": "Hoodie"
+    },
+    {
+      "name": "Green Cargo Pants",
+      "primary_color": "Green",
+      "secondary_color": null,
+      "type": "Pants"
+    },
+    {
+      "name": "Yellow Sweater",
+      "primary_color": "Yellow",
+      "secondary_color": null,
+      "type": "Sweater"
+    },
+    {
+      "name": "Brown Leather Jacket",
+      "primary_color": "Brown",
+      "secondary_color": null,
+      "type": "Jacket"
+    },
+    {
+      "name": "Pink Skirt",
+      "primary_color": "Pink",
+      "secondary_color": null,
+      "type": "Skirt"
+    },
+    {
+      "name": "Orange Polo Shirt",
+      "primary_color": "Orange",
+      "secondary_color": null,
+      "type": "Polo Shirt"
+    },
+    {
+      "name": "Blue and White Striped Shirt",
+      "primary_color": "Blue",
+      "secondary_color": "White",
+      "type": "Button Down Shirt"
+    },
+    {
+      "name": "Black Leather Boots",
+      "primary_color": "Black",
+      "secondary_color": null,
+      "type": "Shoes"
+    },
+    {
+      "name": "Purple Dress",
+      "primary_color": "Purple",
+      "secondary_color": null,
+      "type": "Dress"
+    },
+    {
+      "name": "White Cap",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Hat"
+    },
+    {
+      "name": "Blue Denim Shorts",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "Shorts"
+    },
+    {
+      "name": "Grey Sweatpants",
+      "primary_color": "Grey",
+      "secondary_color": null,
+      "type": "Pants"
+    },
+    {
+      "name": "Red and Black Plaid Skirt",
+      "primary_color": "Red",
+      "secondary_color": "Black",
+      "type": "Skirt"
+    },
+    {
+      "name": "Green Flannel Shirt",
+      "primary_color": "Green",
+      "secondary_color": null,
+      "type": "Button Down Shirt"
+    },
+    {
+      "name": "Brown Loafers",
+      "primary_color": "Brown",
+      "secondary_color": null,
+      "type": "Shoes"
+    },
+    {
+      "name": "White Tank Top",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Tank Top"
+    },
+    {
+      "name": "Blue T-Shirt",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "T-Shirt"
+    },
+    {
+      "name": "Black Jeans",
+      "primary_color": "Black",
+      "secondary_color": null,
+      "type": "Jeans"
+    },
+    {
+      "name": "Red Hoodie",
+      "primary_color": "Red",
+      "secondary_color": null,
+      "type": "Hoodie"
+    },
+    {
+      "name": "White Sneakers",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Sneakers"
+    },
+    {
+      "name": "Green Skirt",
+      "primary_color": "Green",
+      "secondary_color": null,
+      "type": "Skirt"
+    },
+    {
+      "name": "Yellow Polo Shirt",
+      "primary_color": "Yellow",
+      "secondary_color": null,
+      "type": "Polo Shirt"
+    },
+    {
+      "name": "Purple Dress",
+      "primary_color": "Purple",
+      "secondary_color": null,
+      "type": "Dress"
+    },
+    {
+      "name": "Gray Blazer",
+      "primary_color": "Gray",
+      "secondary_color": null,
+      "type": "Blazer"
+    },
+    {
+      "name": "Striped Shirt",
+      "primary_color": "White",
+      "secondary_color": "Blue",
+      "type": "Shirt"
+    },
+    {
+      "name": "Brown Pants",
+      "primary_color": "Brown",
+      "secondary_color": null,
+      "type": "Pants"
+    },
+    {
+      "name": "Orange Jacket",
+      "primary_color": "Orange",
+      "secondary_color": null,
+      "type": "Jacket"
+    },
+    {
+      "name": "Black Boots",
+      "primary_color": "Black",
+      "secondary_color": null,
+      "type": "Boots"
+    },
+    {
+      "name": "Pink Blouse",
+      "primary_color": "Pink",
+      "secondary_color": null,
+      "type": "Blouse"
+    },
+    {
+      "name": "Denim Shorts",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "Shorts"
+    },
+    {
+      "name": "Gray Sweater",
+      "primary_color": "Gray",
+      "secondary_color": null,
+      "type": "Sweater"
+    },
+    {
+      "name": "White Dress Shirt",
+      "primary_color": "White",
+      "secondary_color": null,
+      "type": "Dress Shirt"
+    },
+    {
+      "name": "Red Flannel",
+      "primary_color": "Red",
+      "secondary_color": null,
+      "type": "Flannel"
+    },
+    {
+      "name": "Black Leather Jacket",
+      "primary_color": "Black",
+      "secondary_color": null,
+      "type": "Jacket"
+    },
+    {
+      "name": "Blue Leggings",
+      "primary_color": "Blue",
+      "secondary_color": null,
+      "type": "Leggings"
+    },
+    {
+      "name": "Yellow Raincoat",
+      "primary_color": "Yellow",
+      "secondary_color": null,
+      "type": "Raincoat"
+    }
+  ]
+}
