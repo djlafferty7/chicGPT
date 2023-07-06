@@ -60,4 +60,3 @@ def get_advice(user_input, item, json_file):
 
     # Print the generated response
     return generated_text
-
