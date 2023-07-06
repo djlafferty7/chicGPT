@@ -4,7 +4,7 @@ steps:
     args:
       - '-c'
       - |
-        echo "API_KEY=$$_API_KEY" > .env
-        gcloud config set app/cloud_build_timeout 1600
+        touch .env
+        echo "API_KEY=$_API_KEY" > .env
         gcloud app deploy
 timeout: '1600s'
