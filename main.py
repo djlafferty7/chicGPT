@@ -1,10 +1,9 @@
 from flask import Flask, render_template, request
 
-from config import secret_key
+from config import api_key
 from scripts.chicgpt import get_advice
 
 app = Flask(__name__)
-app.secret_key = secret_key
 
 conversation = []
 
