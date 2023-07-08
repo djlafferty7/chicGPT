@@ -16,7 +16,7 @@ def get_advice(user_input, conversation):
         }
         conversation.append(initial_message)
 
-        with open('static\my_wardrobe.json', 'r') as json_file:
+        with open('my_wardrobe.json', 'r') as json_file:
             wardrobe_data = json.load(json_file)
             wardrobe_json = json.dumps(wardrobe_data)
 
