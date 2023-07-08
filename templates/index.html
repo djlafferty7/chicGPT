@@ -2,26 +2,57 @@
 
 {% block body %}
 
-<div class="form-container">
-    <div class="form-container">
-        <form method="POST" action="/" enctype="multipart/form-data">
-            {{ form.csrf_token }}
-            <label class="form-label">What should I wear...</label>
-            {{ form.user_input(class="form-input") }}
-            <br>
-            <label class="form-label">Focal item:</label>
-            {{ form.item(class="form-input") }}
-            <br>
-            <label class="form-label">Wardrobe data:</label>
-            {{ form.json_file(class="form-input") }}
-            <br>
-            <input class="form-submit" type="submit" value="Get Advice">
-        </form>
-        <div class="center-container">
-            <a href="{{ url_for('static', filename='example_wardrobe.json') }}" download class="download-link">Download
-                example wardrobe json</a>
-        </div>
+
+<div id="chat-container">
+    <div id="chat-display">
+        <div id="chat-conversation"></div>
+        <div id="typing-indicator">Assistant is thinking...</div>
     </div>
+    <input type="text" id="user-input" placeholder="Enter your message" autocomplete="off" onkeypress="handleKeyPress(event)">
+    <button onclick="sendMessage()">Send</button>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    function handleKeyPress(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault(); // Prevent form submission
+            sendMessage();
+        }
+    }
+
+    function sendMessage() {
+        // Rest of the code remains the same
+        // ...
+    }
+        function sendMessage() {
+            var userInput = $('#user-input').val();
+            $('#chat-conversation').append('<p><strong>You:</strong> ' + userInput + '</p>');
+            $('#user-input').val('');
+
+            // Show typing indicator
+            $('#typing-indicator').show();
+
+            $.ajax({
+                type: 'POST',
+                url: '/get_response',
+                data: JSON.stringify({ 'user_input': userInput }),
+                contentType: 'application/json',
+                success: function(response) {
+                    // Hide typing indicator
+                    $('#typing-indicator').hide();
+
+                    $('#chat-conversation').append('<p><strong>Chatbot:</strong> ' + response + '</p>');
+                },
+                error: function() {
+                    // Hide typing indicator
+                    $('#typing-indicator').hide();
+
+                    $('#chat-conversation').append('<p><strong>Chatbot:</strong> An error occurred while fetching the response.</p>');
+                }
+            });
+        }
+
+</script>
 
 {% endblock %}

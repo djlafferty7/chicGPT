@@ -1,25 +1,32 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 from config import secret_key
-from scripts.forms import MyForm
 from scripts.chicgpt import get_advice
 
 app = Flask(__name__)
 app.secret_key = secret_key
 
+conversation = []
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/')
 def index():
-    form = MyForm()
-    if form.validate_on_submit():
-        user_input = form.user_input.data
-        item = form.item.data
-        json_file = form.json_file.data
-        message = get_advice(user_input, item, json_file)
-        formatted_message = message.replace('\n', '<br>')
-        return render_template('result.html', message=formatted_message)
-    else:
-        return render_template('index.html', form=form)
+    return render_template('index.html')
+
+@app.route('/get_response', methods=['POST'])
+def get_response():
+    user_input = request.json['user_input']
+
+    global conversation  # Access the conversation variable
+
+    # Process user input and generate a response using your chatbot logic
+    response = get_advice(user_input, conversation)
+    formatted_message = response.replace('\n', '<br>')
+
+    # Add the user input and chatbot response to the conversation
+    conversation.append({'role': 'user', 'content': user_input})
+    conversation.append({'role': 'assistant', 'content': response})
+
+    return formatted_message
 
 
 if __name__ == '__main__':

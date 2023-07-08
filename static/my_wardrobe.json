@@ -1,0 +1,225 @@
+{
+  "items": {
+    "hats": [
+      {
+        "name": "NY Mets Cap",
+        "primary_color": "Blue",
+        "secondary_color": "Orange",
+        "type": "Cap"
+      }
+    ],
+    "jackets": [
+      {
+        "name": "Salmon Pink Blazer",
+        "primary_color": "Pink",
+        "secondary_color": null,
+        "type": "Jacket"
+      }
+    ],
+    "pants": [
+      {
+        "name": "Beige Chinos",
+        "primary_color": "Beige",
+        "secondary_color": null,
+        "type": "Chinos"
+      },
+      {
+        "name": "Jeans",
+        "primary_color": "Blue",
+        "secondary_color": null,
+        "type": "Jeans",
+        "distressed": true
+      },
+      {
+        "name": "Navy Chinos",
+        "primary_color": "Navy",
+        "secondary_color": null,
+        "type": "Chinos"
+      }
+    ],
+    "shirts": [
+      {
+        "name": "Blue Shirt with Lobsters",
+        "primary_color": "Blue",
+        "secondary_color": "Red",
+        "type": "Button Down Shirt",
+        "graphic": null,
+        "pattern": "Lobsters"
+      },
+      {
+        "name": "Burgundy Check Shirt",
+        "primary_color": "Burgundy",
+        "secondary_color": "White",
+        "type": "Button Down Shirt",
+        "graphic": null,
+        "pattern": "Check"
+      },
+      {
+        "name": "Salmon Pink Shirt",
+        "primary_color": "Salmon Pink",
+        "secondary_color": null,
+        "type": "Button Down Shirt",
+        "graphic": null,
+        "pattern": null
+      },
+      {
+        "name": "Pikachu T-Shirt",
+        "primary_color": "White",
+        "secondary_color": "Yellow",
+        "type": "T-Shirt",
+        "graphic": "Pikachu",
+        "pattern": null
+      },
+      {
+        "name": "Addidas T-Shirt",
+        "primary_color": "White",
+        "secondary_color": "Light Blue",
+        "type": "T-Shirt",
+        "graphic": "Adidas Orginals",
+        "pattern": null
+      }
+    ],
+    "shorts": [
+      {
+        "name": "Red Shorts",
+        "primary_color": "Red",
+        "secondary_color": "Pink",
+        "type": "Chino Shorts"
+      },
+      {
+        "name": "Blue Shorts",
+        "primary_color": "Blue",
+        "secondary_color": null,
+        "type": "Chino Shorts"
+      }
+    ],
+    "shoes": [
+      {
+        "name": "Boat Shoes",
+        "primary_color": "Light Brown",
+        "secondary_color": "Brown",
+        "type": "Loafers"
+      },
+      {
+        "name": "Christian Louboutin Loafers",
+        "primary_color": "Tan",
+        "secondary_color": null,
+        "type": "Loafers"
+      },
+      {
+        "name": "Christian Louboutin Oxfords",
+        "primary_color": "Black",
+        "secondary_color": null,
+        "type": "Oxfords"
+      },
+      {
+        "name": "Christian Louboutin Mortimer",
+        "primary_color": "Brown",
+        "secondary_color": null,
+        "type": "Monk"
+      },
+      {
+        "name": "Reebok Classics",
+        "primary_color": "Cream",
+        "secondary_color": "Red & Blue",
+        "type": "Sneakers"
+      },
+      {
+        "name": "Reebok Glide Ripple",
+        "primary_color": "White",
+        "secondary_color": "Maroon",
+        "type": "Sneakers"
+      },
+      {
+        "name": "Reebok Club C 85",
+        "primary_color": "White",
+        "secondary_color": null,
+        "type": "Sneakers"
+      },
+      {
+        "name": "Air Max 1 Patta Waves Monarch",
+        "primary_color": "Orange",
+        "secondary_color": "White",
+        "type": "Sneakers"
+      },
+      {
+        "name": "USA Air Max 90",
+        "primary_color": "White",
+        "secondary_color": "Red & Blue",
+        "type": "Sneakers"
+      },
+            {
+        "name": "Air Force 1 Low",
+        "primary_color": "White",
+        "secondary_color": "Black",
+        "type": "Sneakers"
+      },
+            {
+        "name": "Jordan 1 High Chicago",
+        "primary_color": "Red",
+        "secondary_color": "White",
+        "type": "Sneakers"
+      },
+                  {
+        "name": "Air Jordan 1 Low Cardinal",
+        "primary_color": "Red",
+        "secondary_color": "White",
+        "type": "Sneakers"
+      },
+                        {
+        "name": "Air Jordan 3 Slim Shady",
+        "primary_color": "White",
+        "secondary_color": "Red",
+        "type": "Sneakers"
+      },
+      {
+        "name": "Air Jordan 4 University Blue",
+        "primary_color": "Light Blue",
+        "secondary_color": "Grey",
+        "type": "Sneakers"
+      },
+      {
+        "name": "Air Jordan 4 Military Black",
+        "primary_color": "White",
+        "secondary_color": "Black",
+        "type": "Sneakers"
+      }
+    ],
+    "socks": [
+      {
+        "name": "Black Socks",
+        "primary_color": "Black",
+        "secondary_color": null,
+        "type": "Socks"
+      },
+      {
+        "name": "Blue Socks",
+        "primary_color": "Blue",
+        "secondary_color": null,
+        "type": "Socks"
+      },
+      {
+        "name": "Sushi Socks",
+        "primary_color": "Green",
+        "secondary_color": "Multi Coloured",
+        "type": "Socks"
+      },
+      {
+        "name": "White Socks",
+        "primary_color": "White",
+        "secondary_color": null,
+        "type": "Socks"
+      }
+    ],
+    "sweaters": [
+      {
+        "name": "Light Blue Jumper",
+        "primary_color": "Blue",
+        "secondary_color": null,
+        "type": "Sweatshirt",
+        "graphic": null,
+        "pattern": null
+      }
+    ]
+  }
+}

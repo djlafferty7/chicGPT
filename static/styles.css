@@ -9,74 +9,46 @@ h1 {
   text-align: center;
 }
 
-/* Form Container */
-.form-container {
-  max-width: 400px;
+/* Align chat container to center */
+#chat-container {
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
+}
+
+/* Styling for chat display area */
+#chat-display {
   background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+
+/* Styling for user input field */
+#user-input {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-/* Form Labels */
-.form-label {
+/* Styling for send button */
+button {
   display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-/* Form Input Fields */
-.form-input {
-  width: 97%;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-/* Form Submit Button */
-.form-submit {
   width: 100%;
   padding: 10px;
   background-color: #4CAF50;
-  color: white;
+  color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
 }
 
-/* Form Submit Button Hover Effect */
-.form-submit:hover {
-  background-color: #45a049;
-}
-
-/* Form Buttons Wrapper */
-.form-buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.center-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-}
-
-/* Download Link */
-a.download-link {
-  display: inline-block;
-  padding: 8px 16px;
-  background-color: #4CAF50;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 4px;
-  font-size: 16px;
+/* Styling for typing indicator */
+#typing-indicator {
+  display: none;
   margin-top: 10px;
-}
-
-/* Download Link Hover Effect */
-a.download-link:hover {
-  background-color: #45a049;
+  color: #888;
 }

@@ -7,41 +7,32 @@ from config import api_key
 openai.api_key = api_key
 
 
-def get_advice(user_input, item, json_file):
+def get_advice(user_input, conversation):
+    # Define the initial messages for the conversation if it's empty
+    if len(conversation) == 0:
+        initial_message = {
+            'role': 'system',
+            'content': 'You are an assistant that provides fun fashion advice.'
+        }
+        conversation.append(initial_message)
 
-    # Define the initial messages for the conversation
-    initial_message = {
-        'role': 'system',
-        'content': 'You are an assistant that provides fun fashion advice.'
-    }
-
-    if json_file:
-        # Read the file content
-        file_content = json_file.read()
-
-        wardrobe_data = json.loads(file_content)
-        wardrobe_json = json.dumps(wardrobe_data)
+        with open('static\my_wardrobe.json', 'r') as json_file:
+            wardrobe_data = json.load(json_file)
+            wardrobe_json = json.dumps(wardrobe_data)
 
         wardrobe_message = {
             'role': 'system',
-            'content': wardrobe_json
+            'content': 'This is the contents of my wardrobe: ' + wardrobe_json
         }
-    else:
-        wardrobe_message = {
-            'role': 'system',
-            'content': ''
-        }
+        conversation.append(wardrobe_message)
 
     # Define the user's question
-    if item:
-        user_question = f"I'm going to wear {item}. What else should I wear {user_input}"
-    else:
-        user_question = f"What should I wear {user_input}"
+    user_question = f"{user_input}"
 
     user_message = {'role': 'user', 'content': user_question}
 
-    # Create the conversation with the initial message and user question
-    conversation = [initial_message, wardrobe_message, user_message]
+    # Add the user message to the conversation
+    conversation.append(user_message)
 
     # Convert the conversation to a list of message objects
     messages = [{'role': message['role'], 'content': message['content']} for message in conversation]
