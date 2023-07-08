@@ -7,6 +7,7 @@ from scripts.chicgpt import get_advice
 app = Flask(__name__)
 app.secret_key = secret_key
 
+
 @app.route('/', methods=['GET', 'POST'])
 def index():
     form = MyForm()
