@@ -32,9 +32,33 @@
       },
       {
         "name": "Navy Chinos",
-        "primary_color": "Navy",
+        "primary_color": "Navy Blue",
         "secondary_color": null,
         "type": "Chinos"
+      },
+      {
+        "name": "Grey Joggers",
+        "primary_color": "Grey",
+        "secondary_color": null,
+        "type": "Joggers"
+      },
+      {
+        "name": "Navy Joggers",
+        "primary_color": "Navy Blue",
+        "secondary_color": null,
+        "type": "Joggers"
+      },
+      {
+        "name": "Dark Grey Joggers",
+        "primary_color": "Dark Grey",
+        "secondary_color": null,
+        "type": "Joggers"
+      },
+      {
+        "name": "Navy Joggers",
+        "primary_color": "Navy Blue",
+        "secondary_color": null,
+        "type": "Light Joggers"
       }
     ],
     "shirts": [
@@ -76,6 +100,14 @@
         "secondary_color": "Light Blue",
         "type": "T-Shirt",
         "graphic": "Adidas Orginals",
+        "pattern": null
+      },
+      {
+        "name": "RB Leipzig Shirt Away 21/22",
+        "primary_color": "Navy Blue",
+        "secondary_color": "Multi Colour",
+        "type": "Football Shirt",
+        "graphic": null,
         "pattern": null
       }
     ],
