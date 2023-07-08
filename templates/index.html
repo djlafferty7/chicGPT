@@ -8,51 +8,59 @@
         <div id="chat-conversation"></div>
         <div id="typing-indicator">Assistant is thinking...</div>
     </div>
-    <input type="text" id="user-input" placeholder="Enter your message" autocomplete="off" onkeypress="handleKeyPress(event)">
+    <input type="text" id="user-input" placeholder="How can I help you today?" autocomplete="off" required
+           onkeypress="handleKeyPress(event)">
     <button onclick="sendMessage()">Send</button>
+    <br>
+    <button onclick="resetAndGoHome()">Reset chat</button>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    function handleKeyPress(event) {
-        if (event.keyCode === 13) {
-            event.preventDefault(); // Prevent form submission
-            sendMessage();
-        }
+function handleKeyPress(event) {
+  if (event.keyCode === 13) {
+    event.preventDefault(); // Prevent form submission
+    sendMessage();
+  }
+}
+
+function sendMessage() {
+  var userInput = $('#user-input').val().trim();
+
+  if (userInput === '') {
+    return; // Do not send empty message
+  }
+
+  $('#chat-conversation').append('<p><strong>You:</strong> ' + userInput + '</p>');
+  $('#user-input').val('');
+
+  // Show typing indicator
+  $('#typing-indicator').show();
+
+  $.ajax({
+    type: 'POST',
+    url: '/get_response',
+    data: JSON.stringify({ 'user_input': userInput }),
+    contentType: 'application/json',
+    success: function(response) {
+      // Hide typing indicator
+      $('#typing-indicator').hide();
+
+      $('#chat-conversation').append('<p><strong>Chatbot:</strong> ' + response + '</p>');
+    },
+    error: function() {
+      // Hide typing indicator
+      $('#typing-indicator').hide();
+
+      $('#chat-conversation').append('<p><strong>Chatbot:</strong> An error occurred while fetching the response.</p>');
     }
+  });
+}
 
-    function sendMessage() {
-        // Rest of the code remains the same
-        // ...
-    }
-        function sendMessage() {
-            var userInput = $('#user-input').val();
-            $('#chat-conversation').append('<p><strong>You:</strong> ' + userInput + '</p>');
-            $('#user-input').val('');
-
-            // Show typing indicator
-            $('#typing-indicator').show();
-
-            $.ajax({
-                type: 'POST',
-                url: '/get_response',
-                data: JSON.stringify({ 'user_input': userInput }),
-                contentType: 'application/json',
-                success: function(response) {
-                    // Hide typing indicator
-                    $('#typing-indicator').hide();
-
-                    $('#chat-conversation').append('<p><strong>Chatbot:</strong> ' + response + '</p>');
-                },
-                error: function() {
-                    // Hide typing indicator
-                    $('#typing-indicator').hide();
-
-                    $('#chat-conversation').append('<p><strong>Chatbot:</strong> An error occurred while fetching the response.</p>');
-                }
-            });
-        }
+function resetAndGoHome() {
+  window.location.href = '/';
+}
 
 </script>
+
 
 {% endblock %}

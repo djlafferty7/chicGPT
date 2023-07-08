@@ -9,6 +9,11 @@ h1 {
   text-align: center;
 }
 
+a.no-style {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Align chat container to center */
 #chat-container {
   max-width: 600px;

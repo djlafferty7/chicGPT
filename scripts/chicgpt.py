@@ -20,6 +20,8 @@ def get_advice(user_input, conversation):
             wardrobe_data = json.load(json_file)
             wardrobe_json = json.dumps(wardrobe_data)
 
+            print(wardrobe_json)
+
         wardrobe_message = {
             'role': 'system',
             'content': 'This is the contents of my wardrobe: ' + wardrobe_json
