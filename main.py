@@ -9,6 +9,8 @@ conversation = []
 
 @app.route('/')
 def index():
+    global conversation
+    conversation.clear()
     return render_template('index.html')
 
 @app.route('/get_response', methods=['POST'])
