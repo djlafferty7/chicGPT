@@ -1,5 +1,25 @@
 {
   "items": {
+    "belts": [
+      {
+        "name": "Black Belt",
+        "primary_color": "Black",
+        "secondary_color": null,
+        "type": "Leather"
+      },
+      {
+        "name": "Light Brown Belt",
+        "primary_color": "Light Brown",
+        "secondary_color": null,
+        "type": "Leather"
+      },
+      {
+        "name": "Dark Brown Belt",
+        "primary_color": "Dark Brown",
+        "secondary_color": null,
+        "type": "Leather"
+      }
+    ],
     "hats": [
       {
         "name": "NY Mets Cap",
@@ -146,7 +166,7 @@
         "name": "Pink Check Short Sleeve Shirt",
         "primary_color": "Pink",
         "secondary_color": "Blue",
-        "type": "Button Down Short Sleeve Shirt",
+        "type": "Button Down Shirt",
         "graphic": null,
         "pattern": "Check"
       },
@@ -154,7 +174,7 @@
         "name": "Blue Sailing Boats Short Sleeve Shirt",
         "primary_color": "Blue",
         "secondary_color": "Multi Coloured",
-        "type": "Button Down Short Sleeve Shirt",
+        "type": "Button Down Shirt",
         "graphic": "Sailing Boats",
         "pattern": null
       },
@@ -162,7 +182,7 @@
         "name": "White Sailing Boats Short Sleeve Shirt",
         "primary_color": "White",
         "secondary_color": "Multi Coloured",
-        "type": "Button Down Short Sleeve Shirt",
+        "type": "Button DownShirt",
         "graphic": "Sailing Boats",
         "pattern": null
       },
@@ -261,6 +281,14 @@
         "type": "Football Shirt",
         "graphic": "Ronaldo 9",
         "pattern": null
+      },
+      {
+        "name": "Barcelona Shirt Home 95/96",
+        "primary_color": "Red",
+        "secondary_color": "Blue",
+        "type": "Football Shirt",
+        "graphic": "Guardiola 4",
+        "pattern": null
       }
     ],
     "shorts": [
@@ -298,7 +326,7 @@
     "shoes": [
       {
         "name": "Boat Shoes",
-        "primary_color": "Light Brown",
+        "primary_color": "Tan",
         "secondary_color": "Brown",
         "type": "Loafers"
       },
@@ -401,7 +429,13 @@
         "type": "Socks"
       },
       {
-        "name": "Sushi Socks",
+        "name": "Frutti di Mare Socks",
+        "primary_color": "Multi Coloured",
+        "secondary_color": "Black",
+        "type": "Socks"
+      },
+            {
+        "name": "Fruit Socks",
         "primary_color": "Green",
         "secondary_color": "Multi Coloured",
         "type": "Socks"
@@ -413,7 +447,7 @@
         "type": "Socks"
       }
     ],
-    "Suits": [
+    "suits": [
       {
         "name": "Black Suit",
         "primary_color": "Black",
@@ -423,7 +457,7 @@
     ],
     "tops": [
       {
-        "name": "Light Blue Jumper",
+        "name": "Light Blue Sweatshirt",
         "primary_color": "Light Blue",
         "secondary_color": null,
         "type": "Sweatshirt",
@@ -447,7 +481,7 @@
         "pattern": null
       },
       {
-        "name": "Green Reebok Sweatshit",
+        "name": "Green Reebok Sweatshirt",
         "primary_color": "Dark Green",
         "secondary_color": null,
         "type": "Sweatshirt",
@@ -455,7 +489,7 @@
         "pattern": null
       },
       {
-        "name": "Burgundy Reebok Sweatshit",
+        "name": "Burgundy Reebok Sweatshirt",
         "primary_color": "Burgundy",
         "secondary_color": null,
         "type": "Sweatshirt",

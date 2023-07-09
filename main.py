@@ -1,17 +1,19 @@
-from flask import Flask, render_template, request
+import json
+from flask import Flask, render_template, request, jsonify
 
-from config import api_key
 from scripts.chicgpt import get_advice
 
 app = Flask(__name__)
 
 conversation = []
 
+
 @app.route('/')
 def index():
     global conversation
     conversation.clear()
     return render_template('index.html')
+
 
 @app.route('/get_response', methods=['POST'])
 def get_response():
@@ -28,6 +30,13 @@ def get_response():
     conversation.append({'role': 'assistant', 'content': response})
 
     return formatted_message
+
+
+@app.route('/wardrobe')
+def show_json():
+    with open('my_wardrobe.json') as json_file:
+        data = json.load(json_file)
+    return jsonify(data)
 
 
 if __name__ == '__main__':
