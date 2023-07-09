@@ -146,7 +146,7 @@
         "name": "Pink Check Short Sleeve Shirt",
         "primary_color": "Pink",
         "secondary_color": "Blue",
-        "type": "Short Sleeve Shirt",
+        "type": "Button Down Short Sleeve Shirt",
         "graphic": null,
         "pattern": "Check"
       },
@@ -154,7 +154,7 @@
         "name": "Blue Sailing Boats Short Sleeve Shirt",
         "primary_color": "Blue",
         "secondary_color": "Multi Coloured",
-        "type": "Short Sleeve Shirt",
+        "type": "Button Down Short Sleeve Shirt",
         "graphic": "Sailing Boats",
         "pattern": null
       },
@@ -162,7 +162,7 @@
         "name": "White Sailing Boats Short Sleeve Shirt",
         "primary_color": "White",
         "secondary_color": "Multi Coloured",
-        "type": "Short Sleeve Shirt",
+        "type": "Button Down Short Sleeve Shirt",
         "graphic": "Sailing Boats",
         "pattern": null
       },
