@@ -5,7 +5,43 @@
         "name": "NY Mets Cap",
         "primary_color": "Blue",
         "secondary_color": "Orange",
-        "type": "Cap"
+        "type": "Snapback"
+      },
+      {
+        "name": "Boston Red Sox Cap",
+        "primary_color": "Navy Blue",
+        "secondary_color": "Light Blue",
+        "type": "Baseball Cap"
+      },
+      {
+        "name": "Miami Heat Hat",
+        "primary_color": "Black",
+        "secondary_color": "Cyan",
+        "type": "Snapback"
+      },
+      {
+        "name": "Miami Heat Hat",
+        "primary_color": "Cyan",
+        "secondary_color": "Pink",
+        "type": "Snapback"
+      },
+      {
+        "name": "England Cricket Test Hat",
+        "primary_color": "White",
+        "secondary_color": "Navy Blue",
+        "type": "Wide Brim Hat"
+      },
+      {
+        "name": "England Cricket ODI Cap",
+        "primary_color": "Navy lue",
+        "secondary_color": "Light Blue",
+        "type": "Baseball Cap"
+      },
+      {
+        "name": "England Cricket IT20 Cap",
+        "primary_color": "Red",
+        "secondary_color": "Blue",
+        "type": "Baseball Cap"
       }
     ],
     "jackets": [
@@ -18,23 +54,43 @@
     ],
     "pants": [
       {
-        "name": "Beige Chinos",
-        "primary_color": "Beige",
-        "secondary_color": null,
-        "type": "Chinos"
-      },
-      {
-        "name": "Jeans",
+        "name": "Distressed Jeans",
         "primary_color": "Blue",
         "secondary_color": null,
         "type": "Jeans",
         "distressed": true
       },
       {
+        "name": "Light Blue Jeans",
+        "primary_color": "Light Blue",
+        "secondary_color": null,
+        "type": "Jeans",
+        "distressed": true
+      },
+      {
+        "name": "Police Jeans",
+        "primary_color": "Blue",
+        "secondary_color": null,
+        "type": "Jeans",
+        "distressed": false
+      },
+      {
+        "name": "Beige Chinos",
+        "primary_color": "Beige",
+        "secondary_color": null,
+        "type": "Chinos"
+      },
+      {
         "name": "Navy Chinos",
         "primary_color": "Navy Blue",
         "secondary_color": null,
         "type": "Chinos"
+      },
+      {
+        "name": "Linen Trousers",
+        "primary_color": "Cream",
+        "secondary_color": null,
+        "type": "Linen"
       },
       {
         "name": "Grey Joggers",
@@ -87,6 +143,30 @@
         "pattern": null
       },
       {
+        "name": "Pink Check Short Sleeve Shirt",
+        "primary_color": "Pink",
+        "secondary_color": "Blue",
+        "type": "Short Sleeve Shirt",
+        "graphic": null,
+        "pattern": "Check"
+      },
+      {
+        "name": "Blue Sailing Boats Short Sleeve Shirt",
+        "primary_color": "Blue",
+        "secondary_color": "Multi Coloured",
+        "type": "Short Sleeve Shirt",
+        "graphic": "Sailing Boats",
+        "pattern": null
+      },
+      {
+        "name": "White Sailing Boats Short Sleeve Shirt",
+        "primary_color": "White",
+        "secondary_color": "Multi Coloured",
+        "type": "Short Sleeve Shirt",
+        "graphic": "Sailing Boats",
+        "pattern": null
+      },
+      {
         "name": "Pikachu T-Shirt",
         "primary_color": "White",
         "secondary_color": "Yellow",
@@ -95,11 +175,68 @@
         "pattern": null
       },
       {
-        "name": "Addidas T-Shirt",
+        "name": "Magnemite T-Shirt",
+        "primary_color": "White",
+        "secondary_color": "Blue & Red",
+        "type": "T-Shirt",
+        "graphic": "Magnemite",
+        "pattern": null
+      },
+      {
+        "name": "Magikarp T-Shirt",
+        "primary_color": "Navy Blue",
+        "secondary_color": "Orange",
+        "type": "T-Shirt",
+        "graphic": "Magikarp",
+        "pattern": null
+      },
+      {
+        "name": "Psyduck T-Shirt",
+        "primary_color": "Dark Grey",
+        "secondary_color": "Yellow",
+        "type": "T-Shirt",
+        "graphic": "Psyduck",
+        "pattern": null
+      },
+      },
+      {
+        "name": "West Virginia Tech T-Shirt",
+        "primary_color": "Navy Blue",
+        "secondary_color": "Yellow",
+        "type": "T-Shirt",
+        "graphic": "West Virginia Tech",
+        "pattern": null
+      },
+      {
+        "name": "Florida Gators T-Shirt",
+        "primary_color": "Orange",
+        "secondary_color": "Blue",
+        "type": "T-Shirt",
+        "graphic": "Florida Gators",
+        "pattern": null
+      },
+      {
+        "name": "University of Miami T-Shirt",
+        "primary_color": "Dark Green",
+        "secondary_color": "Orange",
+        "type": "T-Shirt",
+        "graphic": "University of Miami",
+        "pattern": null
+      },
+      {
+        "name": "Adidas T-Shirt",
         "primary_color": "White",
         "secondary_color": "Light Blue",
         "type": "T-Shirt",
-        "graphic": "Adidas Orginals",
+        "graphic": "Adidas Originals",
+        "pattern": null
+      },
+      {
+        "name": "Fila T-Shirt",
+        "primary_color": "White",
+        "secondary_color": "Blue & Red",
+        "type": "T-Shirt",
+        "graphic": "Fila",
         "pattern": null
       },
       {
@@ -108,6 +245,22 @@
         "secondary_color": "Multi Colour",
         "type": "Football Shirt",
         "graphic": null,
+        "pattern": null
+      },
+      {
+        "name": "Brazil Shirt Home 94",
+        "primary_color": "Yellow",
+        "secondary_color": "Dark Green",
+        "type": "Football Shirt",
+        "graphic": "Romario 11",
+        "pattern": null
+      },
+      {
+        "name": "Brazil Shirt Home 98",
+        "primary_color": "Yellow",
+        "secondary_color": "Green",
+        "type": "Football Shirt",
+        "graphic": "Ronaldo 9",
         "pattern": null
       }
     ],
@@ -123,6 +276,24 @@
         "primary_color": "Blue",
         "secondary_color": null,
         "type": "Chino Shorts"
+      },
+      {
+        "name": "Cream Shorts",
+        "primary_color": "Cream",
+        "secondary_color": null,
+        "type": "Linen Shorts"
+      },
+      {
+        "name": "Navy Shorts",
+        "primary_color": "Navy Blue",
+        "secondary_color": null,
+        "type": "Shorts"
+      },
+      {
+        "name": "Beige Shorts",
+        "primary_color": "Beige",
+        "secondary_color": null,
+        "type": "Shorts"
       }
     ],
     "shoes": [
@@ -153,7 +324,7 @@
       {
         "name": "Reebok Classics",
         "primary_color": "Cream",
-        "secondary_color": "Red & Blue",
+        "secondary_color": "Blue & Red",
         "type": "Sneakers"
       },
       {
@@ -177,28 +348,28 @@
       {
         "name": "USA Air Max 90",
         "primary_color": "White",
-        "secondary_color": "Red & Blue",
+        "secondary_color": "Blue & Red",
         "type": "Sneakers"
       },
-            {
+      {
         "name": "Air Force 1 Low",
         "primary_color": "White",
         "secondary_color": "Black",
         "type": "Sneakers"
       },
-            {
+      {
         "name": "Jordan 1 High Chicago",
         "primary_color": "Red",
         "secondary_color": "White",
         "type": "Sneakers"
       },
-                  {
+      {
         "name": "Air Jordan 1 Low Cardinal",
         "primary_color": "Red",
         "secondary_color": "White",
         "type": "Sneakers"
       },
-                        {
+      {
         "name": "Air Jordan 3 Slim Shady",
         "primary_color": "White",
         "secondary_color": "Red",
@@ -243,13 +414,53 @@
         "type": "Socks"
       }
     ],
-    "sweaters": [
+    "Suits": [
+      {
+        "name": "Black Suit",
+        "primary_color": "Black",
+        "secondary_color": null,
+        "type": "Suit"
+      }
+    ],
+    "tops": [
       {
         "name": "Light Blue Jumper",
-        "primary_color": "Blue",
+        "primary_color": "Light Blue",
         "secondary_color": null,
         "type": "Sweatshirt",
         "graphic": null,
+        "pattern": null
+      },
+      {
+        "name": "Light Blue Hoodie",
+        "primary_color": "Light Blue",
+        "secondary_color": null,
+        "type": "Hoodie",
+        "graphic": null,
+        "pattern": null
+      },
+      {
+        "name": "Harvard Hoodie",
+        "primary_color": "Crimson",
+        "secondary_color": null,
+        "type": "Hoodie",
+        "graphic": "Harvard",
+        "pattern": null
+      },
+      {
+        "name": "Green Reebok Sweatshit",
+        "primary_color": "Dark Green",
+        "secondary_color": null,
+        "type": "Sweatshirt",
+        "graphic": "Reebok",
+        "pattern": null
+      },
+      {
+        "name": "Burgundy Reebok Sweatshit",
+        "primary_color": "Burgundy",
+        "secondary_color": null,
+        "type": "Sweatshirt",
+        "graphic": "Reebok",
         "pattern": null
       }
     ]
